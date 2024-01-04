@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, use_key_in_widget_constructors, prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 
 class CartBottomNavBar extends StatelessWidget {
@@ -41,7 +43,6 @@ class CartBottomNavBar extends StatelessWidget {
               ),
               child: GestureDetector(
                 onTap: () {
-                  // Show the AlertDialog when the button is tapped
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
@@ -51,19 +52,16 @@ class CartBottomNavBar extends StatelessWidget {
                         actions: [
                           TextButton(
                             onPressed: () {
-                              // Close the AlertDialog
                               Navigator.of(context).pop();
                             },
                             child: Text("Cancel", style: TextStyle(color: Colors.black)),
                           ),
                           ElevatedButton(
                             onPressed: () {
-                              // Add your checkout functionality here
-                              // Close the AlertDialog
                               Navigator.of(context).pop();
                             },
                             style: ElevatedButton.styleFrom(
-                              primary: Colors.black, // Set the black color for Confirm button
+                              primary: Colors.black,
                             ),
                             child: Text("Confirm", style: TextStyle(color: Colors.white)),
                           ),

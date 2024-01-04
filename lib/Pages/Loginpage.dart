@@ -1,5 +1,7 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'package:final_6313037/Pages/Homepage.dart';
+import 'package:fin_6313037/Pages/Homepage.dart';
 
 class Loginpage extends StatelessWidget {
   @override
@@ -99,7 +101,6 @@ class Loginpage extends StatelessWidget {
                       right: 30,
                       child: GestureDetector(
                         onTap: () {
-                          // Navigate to a new page here
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) => Homepage()),
