@@ -1,8 +1,10 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
-import 'package:final_6313037/Pages/Cartpage.dart';
-import 'package:final_6313037/Pages/Homepage.dart';
-import 'package:final_6313037/Pages/Itempage.dart';
-import 'package:final_6313037/Pages/Loginpage.dart';
+import 'package:fin_6313037/Pages/Cartpage.dart';
+import 'package:fin_6313037/Pages/Homepage.dart';
+import 'package:fin_6313037/Pages/Itempage.dart';
+import 'package:fin_6313037/Pages/Loginpage.dart';
 
 void main() => runApp(MyApp());
 

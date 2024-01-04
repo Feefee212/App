@@ -1,6 +1,8 @@
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
+
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
-import 'package:final_6313037/Pages/Cartpage.dart';
+import 'package:fin_6313037/Pages/Cartpage.dart';
 
 class HomeAppBar extends StatelessWidget {
   @override
@@ -40,11 +42,9 @@ class HomeAppBar extends StatelessWidget {
               ),
               child: InkWell(
                 onTap: () {
-                  // Navigate to the cart page using Navigator.push
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) {
-                      // Replace `Cartpage()` with the actual widget for your cart page
                       return Cartpage();
                     }),
                   );

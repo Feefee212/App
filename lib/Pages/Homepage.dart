@@ -1,9 +1,11 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:final_6313037/wigets/Second/CategoriesWiget.dart';
-import 'package:final_6313037/wigets/Second/HomeAppBar.dart';
-import 'package:final_6313037/wigets/Second/IteamsWidget.dart';
+import 'package:fin_6313037/wigets/Second/CategoriesWiget.dart';
+import 'package:fin_6313037/wigets/Second/HomeAppBar.dart';
+import 'package:fin_6313037/wigets/Second/IteamsWidget.dart';
 
 class Homepage extends StatelessWidget{
   @override
@@ -12,7 +14,6 @@ Widget build(BuildContext context){
     body: ListView(children: [
       HomeAppBar(),
       Container(
-        //height: 500,
         padding: EdgeInsets.only(top: 15),
         decoration: BoxDecoration(
           color: Colors.white,

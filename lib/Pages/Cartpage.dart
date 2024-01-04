@@ -1,7 +1,9 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'package:final_6313037/wigets/Second/CartAppBar.dart';
-import 'package:final_6313037/wigets/Second/CartBottomNavBar.dart';
-import 'package:final_6313037/wigets/Second/CartItemSamples.dart';
+import 'package:fin_6313037/wigets/Second/CartAppBar.dart';
+import 'package:fin_6313037/wigets/Second/CartBottomNavBar.dart';
+import 'package:fin_6313037/wigets/Second/CartItemSamples.dart';
 
 class Cartpage extends StatelessWidget {
   @override
